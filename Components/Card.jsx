@@ -13,8 +13,7 @@ const Card = ({ data, reference }) => {
         dragConstraints={reference}
         whileDrag={{scale: 1.2}}
         dragTransition={{ bounceStiffness: 300 , bounceDamping: 10 }}
-        className="relative flex-shrink-0 h-72 w-60 rounded-[45px] py-10 px-8 bg-zinc-900/90 text-white overflow-hidden"
-      >
+        className="relative flex-shrink-0 h-72 w-60 rounded-[45px] py-10 px-8 bg-zinc-900/90 text-white overflow-hidden">
         <FaRegFileAlt />
         <p className="text-sm leading-tight mt-5 font-semibold">{data.desc}</p>
         <div className="absolute bottom-0 left-0 w-full">
